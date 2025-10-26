@@ -1,0 +1,49 @@
+
+    body {
+      background: url(./image/key.png);
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .box {
+      background: url(./image/key-2.avif) no-repeat center center/cover;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+    h2{
+      color: rgb(243, 243, 243);
+      font-size: 22px;
+      font-weight: 900;
+      border-bottom: 2px solid rgb(199, 174, 174);
+      border-left: 1.5px solid ;
+      border-right: 1.5px solid ;
+      max-width: 1400px;
+    }
+    input {
+      width: 250px;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 15px;
+      border: none;
+      background: #3b82f6;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 5px;
+    }
+    button:hover {
+      background: #2563eb;
+    }
